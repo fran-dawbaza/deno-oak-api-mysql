@@ -2,8 +2,8 @@ import {
   validate,
   ValidationErrors,
   ValidationRules,
-} from "https://deno.land/x/validasaur@v0.7.0/src/mod.ts";
-import { httpErrors } from "https://deno.land/x/oak@v5.0.0/mod.ts";
+} from "https://deno.land/x/validasaur/src/mod.ts";
+import { httpErrors } from "https://deno.land/x/oak/mod.ts";
 import { Context } from "./../types.ts";
 
 /**
