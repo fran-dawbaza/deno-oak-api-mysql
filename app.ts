@@ -5,7 +5,7 @@ import { router } from "./routes/routes.ts";
 import { Context } from "./types.ts";
 import { config } from "./config/config.ts";
 
-const port = 8000;
+const port = 80;
 const app = new Application<Context>();
 
 app.use(oakCors());
